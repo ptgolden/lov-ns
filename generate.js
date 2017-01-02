@@ -45,12 +45,12 @@ function getUpdatedList() {
 
         fs.writeFileSync(
           path.join(prefix, 'index.js'),
-          "module.exports = require('./vocab.json').nsp;\n"
+          "module.exports = require('./data.json').nsp;\n"
         );
       })
 
       const moduleText = vocabs
-        .map(prefix => `exports.${prefix} = require("./${prefix}/index.js")`)
+        .map(prefix => `exports["${prefix}"] = require("./${prefix}/index.js")`)
         .join('\n')
 
       fs.writeFileSync('index.js', moduleText + '\n')
