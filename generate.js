@@ -21,16 +21,22 @@ function getUpdatedList() {
       return res.json();
     })
     .then(list => {
+      const vocabs = []
+
       list.forEach(vocab => {
         const { prefix, nsp } = vocab
 
-        if (!prefix || !nsp) {
+        if (!prefix || !nsp ) {
           console.log('Error getting prefix from item in LOV list.');
           console.log('The format of the dataset has changed. Cannot continue.');
-          console.log('The format of the dataset may have changed.');
+        }
+
+        if (!/\w+/.test(prefix)) {
+          console.log(`Prefix ${prefix} contains non-ascii characters. Aborting.`);
         }
 
         mkdirp.sync(prefix);
+        vocabs.push(prefix);
 
         fs.writeFileSync(
           path.join(prefix, 'data.json'),
@@ -42,6 +48,12 @@ function getUpdatedList() {
           "module.exports = require('./vocab.json').nsp;\n"
         );
       })
+
+      const moduleText = vocabs
+        .map(prefix => `exports.${prefix} = require("./${prefix}/index.js")`)
+        .join('\n')
+
+      fs.writeFileSync('index.js', moduleText + '\n')
     })
     .catch(err => {
       throw err;
