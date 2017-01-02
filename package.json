@@ -10,6 +10,9 @@
   ],
   "author": "Patrick Golden",
   "license": "MIT",
+  "scripts": {
+    "update-lov": "node generate.js"
+  },
   "devDependencies": {
     "mkdirp": "^0.5.1",
     "node-fetch": "^1.6.3"
