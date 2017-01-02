@@ -1,5 +1,5 @@
 {
-  "name": "linked-open-vocabularies",
+  "name": "lov-list",
   "version": "1.0.0",
   "description": "Recommended RDF vocabularies for Linked Open Data.",
   "main": "index.js",
