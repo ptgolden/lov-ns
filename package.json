@@ -1,0 +1,17 @@
+{
+  "name": "lov",
+  "version": "1.0.0",
+  "description": "Recommended RDF vocabularies for Linked Open Data.",
+  "main": "index.js",
+  "keywords": [
+    "rdf",
+    "lod",
+    "lov"
+  ],
+  "author": "Patrick Golden",
+  "license": "MIT",
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^1.6.3"
+  }
+}
