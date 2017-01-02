@@ -33,7 +33,7 @@ function getUpdatedList() {
         mkdirp.sync(prefix);
 
         fs.writeFileSync(
-          path.join(prefix, 'vocab.json'),
+          path.join(prefix, 'data.json'),
           JSON.stringify(vocab) + '\n'
         );
 
