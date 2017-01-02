@@ -13,6 +13,9 @@
   "scripts": {
     "update-lov": "node generate.js"
   },
+  "bin": {
+    "lov-ns": "./get_ns.js"
+  },
   "devDependencies": {
     "mkdirp": "^0.5.1",
     "node-fetch": "^1.6.3"
