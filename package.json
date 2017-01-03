@@ -1,8 +1,12 @@
 {
-  "name": "lov-list",
+  "name": "lov-ns",
   "version": "1.1.0",
   "description": "Recommended RDF vocabularies for Linked Open Data.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptgolden/lov-ns"
+  },
   "keywords": [
     "rdf",
     "lod",
