@@ -33,3 +33,14 @@ const namespaces = {
 This package also comes with a command line program, `lov-ns`, which will
 expand the prefix of a vocabulary contained in the LOV collection. For example,
 running `lov-ns oa` will print `http://www.w3.org/ns/oa#` to stdout.
+
+Following [semantic versioning](http://semver.org), breaking changes in the dataset (i.e. a change in a namespace's metadata) will result in a major version bump.
+
+# Updating
+To update the dataset, run `npm run update-lov`. This will perform three steps:
+
+  1. Fetch the dataset and create derived namspace files (the `index.js` and `data.json` files in the child directories)
+
+  2. If there have been any changes, these will be commited with an automatic message
+
+  3. If there were any changes committed, the package version will be updated. If there were nothing but additions in the commit, this will be a minor version bump. Otherwise, it will be a major version bump.
