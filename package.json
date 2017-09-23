@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "mkdirp": "^0.5.1",
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^1.7.3"
   }
 }
