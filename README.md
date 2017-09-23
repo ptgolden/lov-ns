@@ -3,6 +3,8 @@ Namespace URIs and common prefixes for recommended RDF vocabularies derived
 from the Open Knowledge Foundation's [Linked Open Vocabularies](http://lov.okfn.org/) (LOV)
 collection.
 
+This library is conceptually similar to Kjetil Kjernsmo's [RDF::NS::Curated](https://metacpan.org/pod/RDF::NS::Curated) package for Perl, as well as the Website <http://prefix.cc/>.
+
 # Use
 Requiring this module simply returns an object containing key-value pairs for
 each entry in the LOV collection. The keys are the prefix by which this
