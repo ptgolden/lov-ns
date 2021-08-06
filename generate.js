@@ -65,7 +65,7 @@ async function getUpdatedList() {
   fs.writeFileSync(CJS_FILE, cjs, { encoding: 'utf-8' })
   fs.writeFileSync(ESM_FILE, esm, { encoding: 'utf-8' })
   fs.writeFileSync(TYPES_FILE, types, { encoding: 'utf-8' })
-  fs.writeFileSync(CONTEXT_FILE, JSON.stringify(context['@context'], true, '  '), { encoding: 'utf-8' })
+  fs.writeFileSync(CONTEXT_FILE, JSON.stringify(Object.fromEntries(entries), true, '  '), { encoding: 'utf-8' })
 }
 
 getUpdatedList();
