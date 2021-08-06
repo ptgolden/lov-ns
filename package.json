@@ -4,6 +4,7 @@
   "description": "Recommended RDF vocabularies for Linked Open Data.",
   "main": "index.js",
   "type": "module",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/ptgolden/lov-ns"

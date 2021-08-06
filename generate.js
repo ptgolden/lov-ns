@@ -25,6 +25,7 @@ mkdirp.sync('cjs')
 
 const ESM_FILE = './index.js'
     , CJS_FILE = './index.cjs'
+    , TYPES_FILE = './index.d.ts'
     , CONTEXT_FILE = 'context.json'
 
 async function getUpdatedList() {
@@ -32,6 +33,7 @@ async function getUpdatedList() {
 
   let cjs = `module.exports = {\n`
     , esm = `export default {\n`
+    , types = `type RDFNS = {\n`
 
   const entries = Object.entries(context['@context'])
     .sort((a, b) => a[0] === b[0] ? 0 : a[0] > b[0] ? 1 : -1)
@@ -40,17 +42,29 @@ async function getUpdatedList() {
     const obj = `    "${prefix}": "${url}",\n`
     cjs += obj
     esm += obj
+    types += obj
+    // types += `    "${prefix}": string;\n`
 
-    fs.writeFileSync(`cjs/${prefix}.cjs`, `module.exports = "${url}"`, { encoding: 'utf-8' })
-    fs.writeFileSync(`esm/${prefix}.js`, `export default "${url}"`, { encoding: 'utf-8' })
+    mkdirp.sync(`cjs/${prefix}`)
+    mkdirp.sync(`esm/${prefix}`)
+
+    fs.writeFileSync(`cjs/${prefix}/index.cjs`, `module.exports = "${url}"`, { encoding: 'utf-8' })
+    fs.writeFileSync(`esm/${prefix}/index.js`, `export default "${url}"`, { encoding: 'utf-8' })
+
+    const typeDef = `type RDFNS_${prefix} = ${url}\n\nexport default RDFNS_${prefix}`
+
+    fs.writeFileSync(`cjs/${prefix}/index.d.ts`, typeDef, { encoding: 'utf-8' })
+    fs.writeFileSync(`esm/${prefix}/index.d.ts`, typeDef, { encoding: 'utf-8' })
 
   }
 
+  types += '}\n\nexport default RDFNS'
   cjs += '}'
   esm += '}'
 
   fs.writeFileSync(CJS_FILE, cjs, { encoding: 'utf-8' })
   fs.writeFileSync(ESM_FILE, esm, { encoding: 'utf-8' })
+  fs.writeFileSync(TYPES_FILE, types, { encoding: 'utf-8' })
   fs.writeFileSync(CONTEXT_FILE, JSON.stringify(context['@context'], true, '  '), { encoding: 'utf-8' })
 }
 
