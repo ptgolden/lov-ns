@@ -1,63 +1,57 @@
-"use strict";
-
-const fs = require('fs')
-    , path = require('path')
-    , fetch = require('node-fetch')
-    , mkdirp = require('mkdirp')
+import * as fs from 'fs'
+import * as path from 'path'
+import fetch from 'node-fetch'
+import mkdirp from 'mkdirp'
 
 const LOV_URL = 'http://lov.okfn.org/dataset/lov/api/v2/vocabulary/list'
 
-console.log(`Updating from ${LOV_URL}`)
+const PREFIX_CC_CONTEXT = 'http://prefix.cc/context'
+    , PREFIX_CC_POPULAR = 'http://prefix.cc/popular/all'
 
-function getUpdatedList() {
-  return fetch(LOV_URL)
-    .then(res => {
-      if (!res.ok) {
-        console.log(`Error fetching LOV list (${res.status})`);
-        console.log(res.statusText);
-        process.exit(1);
-      }
+console.log(`Updating from ${PREFIX_CC_CONTEXT}`)
 
-      return res.json();
-    })
-    .then(list => {
-      const vocabs = []
+async function fetchContext() {
+  const resp = await fetch(PREFIX_CC_CONTEXT)
 
-      list.forEach(vocab => {
-        const { prefix, nsp } = vocab
+  if (!resp.ok) {
+    throw new Error('Error downloading context file')
+  }
 
-        if (!prefix || !nsp ) {
-          console.log('Error getting prefix from item in LOV list.');
-          console.log('The format of the dataset has changed. Cannot continue.');
-        }
+  return resp.json()
+}
 
-        if (!/\w+/.test(prefix)) {
-          console.log(`Prefix ${prefix} contains non-ascii characters. Aborting.`);
-        }
+mkdirp.sync('esm')
+mkdirp.sync('cjs')
 
-        mkdirp.sync(prefix);
-        vocabs.push(prefix);
+const ESM_FILE = './index.js'
+    , CJS_FILE = './index.cjs'
+    , CONTEXT_FILE = 'context.json'
 
-        fs.writeFileSync(
-          path.join(prefix, 'data.json'),
-          JSON.stringify(vocab) + '\n'
-        );
+async function getUpdatedList() {
+  const context = await fetchContext()
 
-        fs.writeFileSync(
-          path.join(prefix, 'index.js'),
-          "module.exports = require('./data.json').nsp;\n"
-        );
-      })
+  let cjs = `module.exports = {\n`
+    , esm = `export default {\n`
 
-      const moduleText = vocabs
-        .map(prefix => `exports["${prefix}"] = require("./${prefix}/index.js")`)
-        .join('\n')
+  const entries = Object.entries(context['@context'])
+    .sort((a, b) => a[0] === b[0] ? 0 : a[0] > b[0] ? 1 : -1)
 
-      fs.writeFileSync('index.js', moduleText + '\n')
-    })
-    .catch(err => {
-      throw err;
-    })
+  for (const [ prefix, url ] of entries) {
+    const obj = `    "${prefix}": "${url}",\n`
+    cjs += obj
+    esm += obj
+
+    fs.writeFileSync(`cjs/${prefix}.cjs`, `module.exports = "${url}"`, { encoding: 'utf-8' })
+    fs.writeFileSync(`esm/${prefix}.js`, `export default "${url}"`, { encoding: 'utf-8' })
+
+  }
+
+  cjs += '}'
+  esm += '}'
+
+  fs.writeFileSync(CJS_FILE, cjs, { encoding: 'utf-8' })
+  fs.writeFileSync(ESM_FILE, esm, { encoding: 'utf-8' })
+  fs.writeFileSync(CONTEXT_FILE, JSON.stringify(context['@context'], true, '  '), { encoding: 'utf-8' })
 }
 
 getUpdatedList();
