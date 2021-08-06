@@ -48,19 +48,19 @@ async function getUpdatedList() {
     mkdirp.sync(`cjs/${prefix}`)
     mkdirp.sync(`esm/${prefix}`)
 
-    fs.writeFileSync(`cjs/${prefix}/index.cjs`, `module.exports = "${url}"`, { encoding: 'utf-8' })
-    fs.writeFileSync(`esm/${prefix}/index.js`, `export default "${url}"`, { encoding: 'utf-8' })
+    fs.writeFileSync(`cjs/${prefix}/index.cjs`, `module.exports = "${url}"\n`, { encoding: 'utf-8' })
+    fs.writeFileSync(`esm/${prefix}/index.js`, `export default "${url}"\n`, { encoding: 'utf-8' })
 
-    const typeDef = `type RDFNS_${prefix} = ${url}\n\nexport default RDFNS_${prefix}`
+    const typeDef = `type RDFNS_${prefix} = ${url}\n\nexport default RDFNS_${prefix}\n`
 
     fs.writeFileSync(`cjs/${prefix}/index.d.ts`, typeDef, { encoding: 'utf-8' })
     fs.writeFileSync(`esm/${prefix}/index.d.ts`, typeDef, { encoding: 'utf-8' })
 
   }
 
-  types += '}\n\nexport default RDFNS'
-  cjs += '}'
-  esm += '}'
+  types += '}\n\nexport default RDFNS\n'
+  cjs += '}\n'
+  esm += '}\n'
 
   fs.writeFileSync(CJS_FILE, cjs, { encoding: 'utf-8' })
   fs.writeFileSync(ESM_FILE, esm, { encoding: 'utf-8' })
