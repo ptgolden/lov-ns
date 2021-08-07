@@ -32,8 +32,8 @@ async function getUpdatedList() {
   const context = await fetchContext()
 
   let cjs = `module.exports = {\n`
-    , esm = `export default {\n`
-    , types = `type RDFNS = {\n`
+    , esm = `const _default = {\n`
+    , types = `declare const _default: {\n`
 
   const entries = Object.entries(context['@context'])
     .sort((a, b) => a[0] === b[0] ? 0 : a[0] > b[0] ? 1 : -1)
@@ -51,16 +51,16 @@ async function getUpdatedList() {
     fs.writeFileSync(`cjs/${prefix}/index.cjs`, `module.exports = "${url}"\n`, { encoding: 'utf-8' })
     fs.writeFileSync(`esm/${prefix}/index.js`, `export default "${url}"\n`, { encoding: 'utf-8' })
 
-    const typeDef = `type RDFNS_${prefix} = ${url}\n\nexport default RDFNS_${prefix}\n`
+    const typeDef = `declare const RDFNS_${prefix}: "${url}"\n\nexport default RDFNS_${prefix}\n`
 
     fs.writeFileSync(`cjs/${prefix}/index.d.ts`, typeDef, { encoding: 'utf-8' })
     fs.writeFileSync(`esm/${prefix}/index.d.ts`, typeDef, { encoding: 'utf-8' })
 
   }
 
-  types += '}\n\nexport default RDFNS\n'
+  types += '}\n\nexport default _default\n'
   cjs += '}\n'
-  esm += '}\n'
+  esm += '}\n\nexport default _default'
 
   fs.writeFileSync(CJS_FILE, cjs, { encoding: 'utf-8' })
   fs.writeFileSync(ESM_FILE, esm, { encoding: 'utf-8' })
