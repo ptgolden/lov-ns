@@ -1,3 +1,3 @@
-type RDFNS_oils = http://lemon-model.net/oils#
+declare const RDFNS_oils: "http://lemon-model.net/oils#"
 
 export default RDFNS_oils

@@ -1,3 +1,3 @@
-type RDFNS_ccom = http://purl.org/ontology/cco/mappings#
+declare const RDFNS_ccom: "http://purl.org/ontology/cco/mappings#"
 
 export default RDFNS_ccom

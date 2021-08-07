@@ -1,3 +1,3 @@
-type RDFNS_rdagrp = http://rdaregistry.info/termList/groovePitch/
+declare const RDFNS_rdagrp: "http://rdaregistry.info/termList/groovePitch/"
 
 export default RDFNS_rdagrp

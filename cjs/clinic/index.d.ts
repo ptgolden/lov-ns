@@ -1,3 +1,3 @@
-type RDFNS_clinic = http://example.com/clinic#
+declare const RDFNS_clinic: "http://example.com/clinic#"
 
 export default RDFNS_clinic

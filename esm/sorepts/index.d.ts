@@ -1,3 +1,3 @@
-type RDFNS_sorepts = http://sweetontology.net/reprTimeSeason/
+declare const RDFNS_sorepts: "http://sweetontology.net/reprTimeSeason/"
 
 export default RDFNS_sorepts

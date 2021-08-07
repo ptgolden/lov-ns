@@ -1,3 +1,3 @@
-type RDFNS_nsogi = http://prefix.cc/nsogi:
+declare const RDFNS_nsogi: "http://prefix.cc/nsogi:"
 
 export default RDFNS_nsogi

@@ -1,3 +1,3 @@
-type RDFNS_otl = https://w3id.org/opentrafficlights#
+declare const RDFNS_otl: "https://w3id.org/opentrafficlights#"
 
 export default RDFNS_otl

@@ -1,3 +1,3 @@
-type RDFNS_loted = http://loted.eu/ontology#
+declare const RDFNS_loted: "http://loted.eu/ontology#"
 
 export default RDFNS_loted

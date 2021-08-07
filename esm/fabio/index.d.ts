@@ -1,3 +1,3 @@
-type RDFNS_fabio = http://purl.org/spar/fabio/
+declare const RDFNS_fabio: "http://purl.org/spar/fabio/"
 
 export default RDFNS_fabio

@@ -1,3 +1,3 @@
-type RDFNS_fingal = http://vocab.deri.ie/fingal#
+declare const RDFNS_fingal: "http://vocab.deri.ie/fingal#"
 
 export default RDFNS_fingal

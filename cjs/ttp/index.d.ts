@@ -1,3 +1,3 @@
-type RDFNS_ttp = http://eample.com/test#
+declare const RDFNS_ttp: "http://eample.com/test#"
 
 export default RDFNS_ttp

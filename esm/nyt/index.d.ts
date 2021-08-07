@@ -1,3 +1,3 @@
-type RDFNS_nyt = http://data.nytimes.com/
+declare const RDFNS_nyt: "http://data.nytimes.com/"
 
 export default RDFNS_nyt

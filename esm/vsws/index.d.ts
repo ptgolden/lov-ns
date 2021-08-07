@@ -1,3 +1,3 @@
-type RDFNS_vsws = http://verticalsearchworks.com/ontology/synset#
+declare const RDFNS_vsws: "http://verticalsearchworks.com/ontology/synset#"
 
 export default RDFNS_vsws

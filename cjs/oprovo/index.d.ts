@@ -1,3 +1,3 @@
-type RDFNS_oprovo = http://openprovenance.org/ontology#
+declare const RDFNS_oprovo: "http://openprovenance.org/ontology#"
 
 export default RDFNS_oprovo

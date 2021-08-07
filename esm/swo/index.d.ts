@@ -1,3 +1,3 @@
-type RDFNS_swo = http://www.ebi.ac.uk/swo/
+declare const RDFNS_swo: "http://www.ebi.ac.uk/swo/"
 
 export default RDFNS_swo

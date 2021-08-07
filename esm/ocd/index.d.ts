@@ -1,3 +1,3 @@
-type RDFNS_ocd = http://dati.camera.it/ocd/
+declare const RDFNS_ocd: "http://dati.camera.it/ocd/"
 
 export default RDFNS_ocd

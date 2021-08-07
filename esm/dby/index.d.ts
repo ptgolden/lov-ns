@@ -1,3 +1,3 @@
-type RDFNS_dby = http://dbpedia.org/class/yago/
+declare const RDFNS_dby: "http://dbpedia.org/class/yago/"
 
 export default RDFNS_dby

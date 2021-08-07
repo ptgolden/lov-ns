@@ -1,3 +1,3 @@
-type RDFNS_vlueprint = https://vlueprint.org/schema/
+declare const RDFNS_vlueprint: "https://vlueprint.org/schema/"
 
 export default RDFNS_vlueprint

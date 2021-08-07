@@ -1,3 +1,3 @@
-type RDFNS_ecrm = http://erlangen-crm.org/current/
+declare const RDFNS_ecrm: "http://erlangen-crm.org/current/"
 
 export default RDFNS_ecrm

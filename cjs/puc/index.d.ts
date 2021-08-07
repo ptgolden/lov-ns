@@ -1,3 +1,3 @@
-type RDFNS_puc = http://purl.org/NET/puc#
+declare const RDFNS_puc: "http://purl.org/NET/puc#"
 
 export default RDFNS_puc

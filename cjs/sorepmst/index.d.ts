@@ -1,3 +1,3 @@
-type RDFNS_sorepmst = http://sweetontology.net/reprMathStatistics/
+declare const RDFNS_sorepmst: "http://sweetontology.net/reprMathStatistics/"
 
 export default RDFNS_sorepmst

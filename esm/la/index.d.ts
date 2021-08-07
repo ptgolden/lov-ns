@@ -1,3 +1,3 @@
-type RDFNS_la = https://linked.art/ns/terms/
+declare const RDFNS_la: "https://linked.art/ns/terms/"
 
 export default RDFNS_la

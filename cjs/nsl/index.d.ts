@@ -1,3 +1,3 @@
-type RDFNS_nsl = http://purl.org/ontology/storyline/
+declare const RDFNS_nsl: "http://purl.org/ontology/storyline/"
 
 export default RDFNS_nsl

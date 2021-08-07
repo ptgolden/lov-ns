@@ -1,3 +1,3 @@
-type RDFNS_vph = http://purl.org/ozo/vph.owl#
+declare const RDFNS_vph: "http://purl.org/ozo/vph.owl#"
 
 export default RDFNS_vph

@@ -1,3 +1,3 @@
-type RDFNS_pv = http://ns.inria.fr/provoc#
+declare const RDFNS_pv: "http://ns.inria.fr/provoc#"
 
 export default RDFNS_pv

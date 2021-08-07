@@ -1,3 +1,3 @@
-type RDFNS_hosp = http://health.data.gov/def/hospital/
+declare const RDFNS_hosp: "http://health.data.gov/def/hospital/"
 
 export default RDFNS_hosp

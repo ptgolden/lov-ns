@@ -1,3 +1,3 @@
-type RDFNS_bop = https://w3id.org/bop#
+declare const RDFNS_bop: "https://w3id.org/bop#"
 
 export default RDFNS_bop

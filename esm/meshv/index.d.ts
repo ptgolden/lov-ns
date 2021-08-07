@@ -1,3 +1,3 @@
-type RDFNS_meshv = http://id.nlm.nih.gov/mesh/vocab#
+declare const RDFNS_meshv: "http://id.nlm.nih.gov/mesh/vocab#"
 
 export default RDFNS_meshv

@@ -1,3 +1,3 @@
-type RDFNS_dcam = http://purl.org/dc/dcam/
+declare const RDFNS_dcam: "http://purl.org/dc/dcam/"
 
 export default RDFNS_dcam

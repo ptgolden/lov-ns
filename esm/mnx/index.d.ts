@@ -1,3 +1,3 @@
-type RDFNS_mnx = https://rdf.metanetx.org/schema/
+declare const RDFNS_mnx: "https://rdf.metanetx.org/schema/"
 
 export default RDFNS_mnx

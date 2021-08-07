@@ -1,3 +1,3 @@
-type RDFNS_rofem = http://rdaregistry.info/termList/rofem/
+declare const RDFNS_rofem: "http://rdaregistry.info/termList/rofem/"
 
 export default RDFNS_rofem

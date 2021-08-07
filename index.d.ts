@@ -1,4 +1,4 @@
-type RDFNS = {
+declare const _default: {
     "aair": "http://xmlns.notu.be/aair#",
     "aapi": "http://rdf.alchemyapi.com/rdf/v1/s/aapi-schema#",
     "aat": "http://vocab.getty.edu/aat/",
@@ -2795,4 +2795,4 @@ type RDFNS = {
     "zr": "http://explain.z3950.org/dtd/2.0/",
 }
 
-export default RDFNS
+export default _default

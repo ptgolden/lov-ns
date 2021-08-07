@@ -1,3 +1,3 @@
-type RDFNS_proton = http://www.ontotext.com/proton/
+declare const RDFNS_proton: "http://www.ontotext.com/proton/"
 
 export default RDFNS_proton

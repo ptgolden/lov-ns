@@ -1,3 +1,3 @@
-type RDFNS_gndo = http://d-nb.info/standards/elementset/gnd#
+declare const RDFNS_gndo: "http://d-nb.info/standards/elementset/gnd#"
 
 export default RDFNS_gndo

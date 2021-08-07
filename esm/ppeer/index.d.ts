@@ -1,3 +1,3 @@
-type RDFNS_ppeer = http://parliament.uk/ontologies/peerage/
+declare const RDFNS_ppeer: "http://parliament.uk/ontologies/peerage/"
 
 export default RDFNS_ppeer

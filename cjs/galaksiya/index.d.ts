@@ -1,3 +1,3 @@
-type RDFNS_galaksiya = http://ontoloji.galaksiya.com/vocab/
+declare const RDFNS_galaksiya: "http://ontoloji.galaksiya.com/vocab/"
 
 export default RDFNS_galaksiya

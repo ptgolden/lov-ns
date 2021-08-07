@@ -1,3 +1,3 @@
-type RDFNS_ottr = http://ns.ottr.xyz/templates#
+declare const RDFNS_ottr: "http://ns.ottr.xyz/templates#"
 
 export default RDFNS_ottr

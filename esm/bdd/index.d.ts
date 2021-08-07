@@ -1,3 +1,3 @@
-type RDFNS_bdd = https://api.bloomberg.com/eap/catalogs/bbg/fields/
+declare const RDFNS_bdd: "https://api.bloomberg.com/eap/catalogs/bbg/fields/"
 
 export default RDFNS_bdd

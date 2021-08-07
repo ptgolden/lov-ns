@@ -1,3 +1,3 @@
-type RDFNS_cl = http://advene.org/ns/cinelab/
+declare const RDFNS_cl: "http://advene.org/ns/cinelab/"
 
 export default RDFNS_cl

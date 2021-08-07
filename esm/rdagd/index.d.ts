@@ -1,3 +1,3 @@
-type RDFNS_rdagd = http://rdaregistry.info/termList/gender/
+declare const RDFNS_rdagd: "http://rdaregistry.info/termList/gender/"
 
 export default RDFNS_rdagd

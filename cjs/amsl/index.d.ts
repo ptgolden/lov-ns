@@ -1,3 +1,3 @@
-type RDFNS_amsl = http://vocab.ub.uni-leipzig.de/amsl/
+declare const RDFNS_amsl: "http://vocab.ub.uni-leipzig.de/amsl/"
 
 export default RDFNS_amsl

@@ -1,3 +1,3 @@
-type RDFNS_bflc = http://id.loc.gov/ontologies/bflc/
+declare const RDFNS_bflc: "http://id.loc.gov/ontologies/bflc/"
 
 export default RDFNS_bflc

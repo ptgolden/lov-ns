@@ -1,3 +1,3 @@
-type RDFNS_voaf = http://purl.org/vocommons/voaf#
+declare const RDFNS_voaf: "http://purl.org/vocommons/voaf#"
 
 export default RDFNS_voaf

@@ -1,3 +1,3 @@
-type RDFNS_oml = http://def.seegrid.csiro.au/ontology/om/om-lite#
+declare const RDFNS_oml: "http://def.seegrid.csiro.au/ontology/om/om-lite#"
 
 export default RDFNS_oml

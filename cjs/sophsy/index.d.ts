@@ -1,3 +1,3 @@
-type RDFNS_sophsy = http://sweetontology.net/phenSystem/
+declare const RDFNS_sophsy: "http://sweetontology.net/phenSystem/"
 
 export default RDFNS_sophsy

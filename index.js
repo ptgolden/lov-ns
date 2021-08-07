@@ -1,4 +1,4 @@
-export default {
+const _default = {
     "aair": "http://xmlns.notu.be/aair#",
     "aapi": "http://rdf.alchemyapi.com/rdf/v1/s/aapi-schema#",
     "aat": "http://vocab.getty.edu/aat/",
@@ -2794,3 +2794,5 @@ export default {
     "zoomaterms": "http://rdf.ebi.ac.uk/vocabulary/zooma/",
     "zr": "http://explain.z3950.org/dtd/2.0/",
 }
+
+export default _default

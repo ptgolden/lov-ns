@@ -1,3 +1,3 @@
-type RDFNS_sostre = http://sweetontology.net/stateRealm/
+declare const RDFNS_sostre: "http://sweetontology.net/stateRealm/"
 
 export default RDFNS_sostre

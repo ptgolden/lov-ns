@@ -1,3 +1,3 @@
-type RDFNS_infor = http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#
+declare const RDFNS_infor: "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
 
 export default RDFNS_infor

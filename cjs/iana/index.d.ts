@@ -1,3 +1,3 @@
-type RDFNS_iana = http://www.iana.org/assignments/relation/
+declare const RDFNS_iana: "http://www.iana.org/assignments/relation/"
 
 export default RDFNS_iana

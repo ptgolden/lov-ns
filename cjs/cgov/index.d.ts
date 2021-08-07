@@ -1,3 +1,3 @@
-type RDFNS_cgov = http://reference.data.gov.uk/def/central-government/
+declare const RDFNS_cgov: "http://reference.data.gov.uk/def/central-government/"
 
 export default RDFNS_cgov

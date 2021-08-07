@@ -1,3 +1,3 @@
-type RDFNS_newsevents = http://www.aifb.uni-karlsruhe.de/WBS/uhe/ontologies#
+declare const RDFNS_newsevents: "http://www.aifb.uni-karlsruhe.de/WBS/uhe/ontologies#"
 
 export default RDFNS_newsevents

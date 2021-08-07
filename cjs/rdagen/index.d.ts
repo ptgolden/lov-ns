@@ -1,3 +1,3 @@
-type RDFNS_rdagen = http://rdaregistry.info/termList/RDAGeneration/
+declare const RDFNS_rdagen: "http://rdaregistry.info/termList/RDAGeneration/"
 
 export default RDFNS_rdagen

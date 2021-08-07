@@ -1,3 +1,3 @@
-type RDFNS_ccard = http://purl.org/commerce/creditcard#
+declare const RDFNS_ccard: "http://purl.org/commerce/creditcard#"
 
 export default RDFNS_ccard

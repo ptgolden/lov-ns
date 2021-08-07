@@ -1,3 +1,3 @@
-type RDFNS_bibrm = http://vocab.ub.uni-leipzig.de/bibrm/
+declare const RDFNS_bibrm: "http://vocab.ub.uni-leipzig.de/bibrm/"
 
 export default RDFNS_bibrm

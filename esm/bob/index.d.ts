@@ -1,3 +1,3 @@
-type RDFNS_bob = http://good.dad/meaning/bob#
+declare const RDFNS_bob: "http://good.dad/meaning/bob#"
 
 export default RDFNS_bob

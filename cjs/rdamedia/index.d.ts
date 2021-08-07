@@ -1,3 +1,3 @@
-type RDFNS_rdamedia = http://rdvocab.info/termList/RDAMediaType/
+declare const RDFNS_rdamedia: "http://rdvocab.info/termList/RDAMediaType/"
 
 export default RDFNS_rdamedia

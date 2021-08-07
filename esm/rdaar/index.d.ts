@@ -1,3 +1,3 @@
-type RDFNS_rdaar = http://rdaregistry.info/termList/AspectRatio/
+declare const RDFNS_rdaar: "http://rdaregistry.info/termList/AspectRatio/"
 
 export default RDFNS_rdaar

@@ -1,3 +1,3 @@
-type RDFNS_qb = http://purl.org/linked-data/cube#
+declare const RDFNS_qb: "http://purl.org/linked-data/cube#"
 
 export default RDFNS_qb

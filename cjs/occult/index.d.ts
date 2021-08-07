@@ -1,3 +1,3 @@
-type RDFNS_occult = http://data.totl.net/occult/
+declare const RDFNS_occult: "http://data.totl.net/occult/"
 
 export default RDFNS_occult

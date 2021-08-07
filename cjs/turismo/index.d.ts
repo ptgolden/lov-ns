@@ -1,3 +1,3 @@
-type RDFNS_turismo = http://idi.fundacionctic.org/cruzar/turismo#
+declare const RDFNS_turismo: "http://idi.fundacionctic.org/cruzar/turismo#"
 
 export default RDFNS_turismo

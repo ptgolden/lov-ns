@@ -1,3 +1,3 @@
-type RDFNS_comm = http://vocab.resc.info/communication#
+declare const RDFNS_comm: "http://vocab.resc.info/communication#"
 
 export default RDFNS_comm

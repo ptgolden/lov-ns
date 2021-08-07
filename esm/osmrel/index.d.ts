@@ -1,3 +1,3 @@
-type RDFNS_osmrel = https://www.openstreetmap.org/relation/
+declare const RDFNS_osmrel: "https://www.openstreetmap.org/relation/"
 
 export default RDFNS_osmrel

@@ -1,3 +1,3 @@
-type RDFNS_composer = http://dbpedia.org/ontology/composer/
+declare const RDFNS_composer: "http://dbpedia.org/ontology/composer/"
 
 export default RDFNS_composer

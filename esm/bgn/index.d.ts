@@ -1,3 +1,3 @@
-type RDFNS_bgn = http://bibliograph.net/schemas/
+declare const RDFNS_bgn: "http://bibliograph.net/schemas/"
 
 export default RDFNS_bgn

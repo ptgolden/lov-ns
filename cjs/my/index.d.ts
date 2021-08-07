@@ -1,3 +1,3 @@
-type RDFNS_my = http://www.mobile.com/model/
+declare const RDFNS_my: "http://www.mobile.com/model/"
 
 export default RDFNS_my

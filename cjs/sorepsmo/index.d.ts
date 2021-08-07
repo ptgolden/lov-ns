@@ -1,3 +1,3 @@
-type RDFNS_sorepsmo = http://sweetontology.net/reprSciModel/
+declare const RDFNS_sorepsmo: "http://sweetontology.net/reprSciModel/"
 
 export default RDFNS_sorepsmo

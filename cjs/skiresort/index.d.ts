@@ -1,3 +1,3 @@
-type RDFNS_skiresort = http://www.openlinksw.com/ski_resorts/schema#
+declare const RDFNS_skiresort: "http://www.openlinksw.com/ski_resorts/schema#"
 
 export default RDFNS_skiresort

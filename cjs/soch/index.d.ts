@@ -1,3 +1,3 @@
-type RDFNS_soch = http://kulturarvsdata.se/ksamsok#
+declare const RDFNS_soch: "http://kulturarvsdata.se/ksamsok#"
 
 export default RDFNS_soch

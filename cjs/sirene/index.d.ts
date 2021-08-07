@@ -1,3 +1,3 @@
-type RDFNS_sirene = https://sireneld.io/vocab/sirene#
+declare const RDFNS_sirene: "https://sireneld.io/vocab/sirene#"
 
 export default RDFNS_sirene

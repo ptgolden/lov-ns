@@ -1,3 +1,3 @@
-type RDFNS_rdafr = http://rdaregistry.info/termList/frequency/
+declare const RDFNS_rdafr: "http://rdaregistry.info/termList/frequency/"
 
 export default RDFNS_rdafr

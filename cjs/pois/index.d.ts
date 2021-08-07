@@ -1,3 +1,3 @@
-type RDFNS_pois = http://purl.oclc.org/POIS/vcblr#
+declare const RDFNS_pois: "http://purl.oclc.org/POIS/vcblr#"
 
 export default RDFNS_pois

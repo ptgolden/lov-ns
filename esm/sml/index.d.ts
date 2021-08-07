@@ -1,3 +1,3 @@
-type RDFNS_sml = http://topbraid.org/sparqlmotionlib#
+declare const RDFNS_sml: "http://topbraid.org/sparqlmotionlib#"
 
 export default RDFNS_sml

@@ -1,3 +1,3 @@
-type RDFNS_nlon = http://lod.nl.go.kr/ontology/
+declare const RDFNS_nlon: "http://lod.nl.go.kr/ontology/"
 
 export default RDFNS_nlon

@@ -1,3 +1,3 @@
-type RDFNS_lexvo = http://lexvo.org/ontology#
+declare const RDFNS_lexvo: "http://lexvo.org/ontology#"
 
 export default RDFNS_lexvo

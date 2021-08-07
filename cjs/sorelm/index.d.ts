@@ -1,3 +1,3 @@
-type RDFNS_sorelm = http://sweetontology.net/relaMath/
+declare const RDFNS_sorelm: "http://sweetontology.net/relaMath/"
 
 export default RDFNS_sorelm

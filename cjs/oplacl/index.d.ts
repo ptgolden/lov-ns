@@ -1,3 +1,3 @@
-type RDFNS_oplacl = http://www.openlinksw.com/ontology/acl#
+declare const RDFNS_oplacl: "http://www.openlinksw.com/ontology/acl#"
 
 export default RDFNS_oplacl

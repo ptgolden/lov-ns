@@ -1,3 +1,3 @@
-type RDFNS_spacerel = http://data.ordnancesurvey.co.uk/ontology/spatialrelations/
+declare const RDFNS_spacerel: "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
 
 export default RDFNS_spacerel

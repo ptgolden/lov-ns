@@ -1,3 +1,3 @@
-type RDFNS_lv = http://purl.org/lobid/lv#
+declare const RDFNS_lv: "http://purl.org/lobid/lv#"
 
 export default RDFNS_lv

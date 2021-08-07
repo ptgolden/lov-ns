@@ -1,3 +1,3 @@
-type RDFNS_apivc = http://purl.org/linked-data/api/vocab#
+declare const RDFNS_apivc: "http://purl.org/linked-data/api/vocab#"
 
 export default RDFNS_apivc

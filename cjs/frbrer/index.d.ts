@@ -1,3 +1,3 @@
-type RDFNS_frbrer = http://iflastandards.info/ns/fr/frbr/frbrer/
+declare const RDFNS_frbrer: "http://iflastandards.info/ns/fr/frbr/frbrer/"
 
 export default RDFNS_frbrer

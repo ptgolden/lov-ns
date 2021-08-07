@@ -1,3 +1,3 @@
-type RDFNS_isocat = http://www.isocat.org/datcat/
+declare const RDFNS_isocat: "http://www.isocat.org/datcat/"
 
 export default RDFNS_isocat

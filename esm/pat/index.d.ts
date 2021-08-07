@@ -1,3 +1,3 @@
-type RDFNS_pat = http://purl.org/hpi/patchr#
+declare const RDFNS_pat: "http://purl.org/hpi/patchr#"
 
 export default RDFNS_pat

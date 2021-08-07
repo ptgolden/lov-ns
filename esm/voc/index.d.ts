@@ -1,3 +1,3 @@
-type RDFNS_voc = http://voc.odw.tw/
+declare const RDFNS_voc: "http://voc.odw.tw/"
 
 export default RDFNS_voc

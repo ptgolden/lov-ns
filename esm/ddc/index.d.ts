@@ -1,3 +1,3 @@
-type RDFNS_ddc = http://purl.org/NET/decimalised#
+declare const RDFNS_ddc: "http://purl.org/NET/decimalised#"
 
 export default RDFNS_ddc

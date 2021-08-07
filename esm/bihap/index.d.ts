@@ -1,3 +1,3 @@
-type RDFNS_bihap = http://bihap.kb.gov.tr/ontology/
+declare const RDFNS_bihap: "http://bihap.kb.gov.tr/ontology/"
 
 export default RDFNS_bihap

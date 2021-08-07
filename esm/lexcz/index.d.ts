@@ -1,3 +1,3 @@
-type RDFNS_lexcz = http://purl.org/lex/cz#
+declare const RDFNS_lexcz: "http://purl.org/lex/cz#"
 
 export default RDFNS_lexcz

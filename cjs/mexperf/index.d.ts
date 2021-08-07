@@ -1,3 +1,3 @@
-type RDFNS_mexperf = http://mex.aksw.org/mex-perf#
+declare const RDFNS_mexperf: "http://mex.aksw.org/mex-perf#"
 
 export default RDFNS_mexperf

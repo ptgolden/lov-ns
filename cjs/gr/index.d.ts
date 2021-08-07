@@ -1,3 +1,3 @@
-type RDFNS_gr = http://purl.org/goodrelations/v1#
+declare const RDFNS_gr: "http://purl.org/goodrelations/v1#"
 
 export default RDFNS_gr

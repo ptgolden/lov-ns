@@ -1,3 +1,3 @@
-type RDFNS_tb = https://w3id.org/timebank#
+declare const RDFNS_tb: "https://w3id.org/timebank#"
 
 export default RDFNS_tb

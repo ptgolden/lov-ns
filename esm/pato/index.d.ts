@@ -1,3 +1,3 @@
-type RDFNS_pato = http://purl.obolibrary.org/obo/
+declare const RDFNS_pato: "http://purl.obolibrary.org/obo/"
 
 export default RDFNS_pato

@@ -1,3 +1,3 @@
-type RDFNS_lio = http://purl.org/net/lio#
+declare const RDFNS_lio: "http://purl.org/net/lio#"
 
 export default RDFNS_lio

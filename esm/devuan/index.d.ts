@@ -1,3 +1,3 @@
-type RDFNS_devuan = https://devuan.net.br/
+declare const RDFNS_devuan: "https://devuan.net.br/"
 
 export default RDFNS_devuan

@@ -1,3 +1,3 @@
-type RDFNS_nprl = http://data.nobelprize.org/resource/laureate/
+declare const RDFNS_nprl: "http://data.nobelprize.org/resource/laureate/"
 
 export default RDFNS_nprl

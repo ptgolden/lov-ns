@@ -1,3 +1,3 @@
-type RDFNS_cito = http://purl.org/spar/cito/
+declare const RDFNS_cito: "http://purl.org/spar/cito/"
 
 export default RDFNS_cito

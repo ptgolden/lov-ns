@@ -1,3 +1,3 @@
-type RDFNS_esco = http://data.europa.eu/esco/model#
+declare const RDFNS_esco: "http://data.europa.eu/esco/model#"
 
 export default RDFNS_esco

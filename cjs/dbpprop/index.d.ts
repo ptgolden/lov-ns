@@ -1,3 +1,3 @@
-type RDFNS_dbpprop = http://dbpedia.org/property/
+declare const RDFNS_dbpprop: "http://dbpedia.org/property/"
 
 export default RDFNS_dbpprop

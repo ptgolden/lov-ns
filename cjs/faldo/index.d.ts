@@ -1,3 +1,3 @@
-type RDFNS_faldo = http://biohackathon.org/resource/faldo#
+declare const RDFNS_faldo: "http://biohackathon.org/resource/faldo#"
 
 export default RDFNS_faldo

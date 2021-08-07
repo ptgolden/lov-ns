@@ -1,3 +1,3 @@
-type RDFNS_city = http://datos.localidata.com/def/City#
+declare const RDFNS_city: "http://datos.localidata.com/def/City#"
 
 export default RDFNS_city

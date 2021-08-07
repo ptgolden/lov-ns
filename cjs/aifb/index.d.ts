@@ -1,3 +1,3 @@
-type RDFNS_aifb = http://www.aifb.kit.edu/id/
+declare const RDFNS_aifb: "http://www.aifb.kit.edu/id/"
 
 export default RDFNS_aifb

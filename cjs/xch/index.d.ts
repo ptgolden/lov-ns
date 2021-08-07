@@ -1,3 +1,3 @@
-type RDFNS_xch = http://oanda2rdf.appspot.com/xch/
+declare const RDFNS_xch: "http://oanda2rdf.appspot.com/xch/"
 
 export default RDFNS_xch

@@ -1,3 +1,3 @@
-type RDFNS_dvia = http://data.eurecom.fr/ontology/dvia#
+declare const RDFNS_dvia: "http://data.eurecom.fr/ontology/dvia#"
 
 export default RDFNS_dvia

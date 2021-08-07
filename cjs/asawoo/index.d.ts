@@ -1,3 +1,3 @@
-type RDFNS_asawoo = http://liris.cnrs.fr/asawoo/
+declare const RDFNS_asawoo: "http://liris.cnrs.fr/asawoo/"
 
 export default RDFNS_asawoo

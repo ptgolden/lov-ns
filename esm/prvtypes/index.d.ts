@@ -1,3 +1,3 @@
-type RDFNS_prvtypes = http://purl.org/net/provenance/types#
+declare const RDFNS_prvtypes: "http://purl.org/net/provenance/types#"
 
 export default RDFNS_prvtypes

@@ -1,3 +1,3 @@
-type RDFNS_sohutr = http://sweetontology.net/humanTechReadiness/
+declare const RDFNS_sohutr: "http://sweetontology.net/humanTechReadiness/"
 
 export default RDFNS_sohutr

@@ -1,3 +1,3 @@
-type RDFNS_mime = https://www.iana.org/assignments/media-types/
+declare const RDFNS_mime: "https://www.iana.org/assignments/media-types/"
 
 export default RDFNS_mime

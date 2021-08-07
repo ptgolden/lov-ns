@@ -1,3 +1,3 @@
-type RDFNS_somais = http://sweetontology.net/matrIsotope/
+declare const RDFNS_somais: "http://sweetontology.net/matrIsotope/"
 
 export default RDFNS_somais

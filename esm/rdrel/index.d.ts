@@ -1,3 +1,3 @@
-type RDFNS_rdrel = http://rdvocab.info/RDARelationshipsWEMI/
+declare const RDFNS_rdrel: "http://rdvocab.info/RDARelationshipsWEMI/"
 
 export default RDFNS_rdrel

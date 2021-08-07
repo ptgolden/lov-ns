@@ -1,3 +1,3 @@
-type RDFNS_kb = http://deductions.sf.net/ontology/knowledge_base.owl#
+declare const RDFNS_kb: "http://deductions.sf.net/ontology/knowledge_base.owl#"
 
 export default RDFNS_kb

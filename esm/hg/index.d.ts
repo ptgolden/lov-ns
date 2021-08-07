@@ -1,3 +1,3 @@
-type RDFNS_hg = http://rdf.histograph.io/
+declare const RDFNS_hg: "http://rdf.histograph.io/"
 
 export default RDFNS_hg

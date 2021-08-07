@@ -1,3 +1,3 @@
-type RDFNS_ebucore = http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#
+declare const RDFNS_ebucore: "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
 
 export default RDFNS_ebucore

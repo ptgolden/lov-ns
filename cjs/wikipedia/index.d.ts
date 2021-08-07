@@ -1,3 +1,3 @@
-type RDFNS_wikipedia = http://wikipedia.no/rdf/
+declare const RDFNS_wikipedia: "http://wikipedia.no/rdf/"
 
 export default RDFNS_wikipedia

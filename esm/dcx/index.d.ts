@@ -1,3 +1,3 @@
-type RDFNS_dcx = http://dublincore.org/dcx/
+declare const RDFNS_dcx: "http://dublincore.org/dcx/"
 
 export default RDFNS_dcx

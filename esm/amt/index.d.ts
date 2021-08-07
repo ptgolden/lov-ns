@@ -1,3 +1,3 @@
-type RDFNS_amt = http://academic-meta-tool.xyz/vocab#
+declare const RDFNS_amt: "http://academic-meta-tool.xyz/vocab#"
 
 export default RDFNS_amt

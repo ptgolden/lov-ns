@@ -1,3 +1,3 @@
-type RDFNS_sophsyc = http://sweetontology.net/phenSystemComplexity/
+declare const RDFNS_sophsyc: "http://sweetontology.net/phenSystemComplexity/"
 
 export default RDFNS_sophsyc

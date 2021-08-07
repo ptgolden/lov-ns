@@ -1,3 +1,3 @@
-type RDFNS_agent = http://eulersharp.sourceforge.net/2003/03swap/agent#
+declare const RDFNS_agent: "http://eulersharp.sourceforge.net/2003/03swap/agent#"
 
 export default RDFNS_agent

@@ -1,3 +1,3 @@
-type RDFNS_swandr = http://purl.org/swan/1.2/discourse-relationships/
+declare const RDFNS_swandr: "http://purl.org/swan/1.2/discourse-relationships/"
 
 export default RDFNS_swandr

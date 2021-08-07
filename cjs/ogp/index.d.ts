@@ -1,3 +1,3 @@
-type RDFNS_ogp = http://ogp.me/ns#
+declare const RDFNS_ogp: "http://ogp.me/ns#"
 
 export default RDFNS_ogp

@@ -1,3 +1,3 @@
-type RDFNS_bibo = http://purl.org/ontology/bibo/
+declare const RDFNS_bibo: "http://purl.org/ontology/bibo/"
 
 export default RDFNS_bibo

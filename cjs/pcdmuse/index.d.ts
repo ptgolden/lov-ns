@@ -1,3 +1,3 @@
-type RDFNS_pcdmuse = http://pcdm.org/use#
+declare const RDFNS_pcdmuse: "http://pcdm.org/use#"
 
 export default RDFNS_pcdmuse

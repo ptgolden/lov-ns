@@ -1,3 +1,3 @@
-type RDFNS_fb = http://rdf.freebase.com/ns/
+declare const RDFNS_fb: "http://rdf.freebase.com/ns/"
 
 export default RDFNS_fb

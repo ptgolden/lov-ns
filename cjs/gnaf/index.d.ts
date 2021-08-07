@@ -1,3 +1,3 @@
-type RDFNS_gnaf = http://linked.data.gov.au/def/gnaf#
+declare const RDFNS_gnaf: "http://linked.data.gov.au/def/gnaf#"
 
 export default RDFNS_gnaf

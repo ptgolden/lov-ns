@@ -1,3 +1,3 @@
-type RDFNS_sophod = http://sweetontology.net/phenOceanDynamics/
+declare const RDFNS_sophod: "http://sweetontology.net/phenOceanDynamics/"
 
 export default RDFNS_sophod

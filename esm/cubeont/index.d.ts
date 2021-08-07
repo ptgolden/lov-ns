@@ -1,3 +1,3 @@
-type RDFNS_cubeont = http://ontology.cube.global/
+declare const RDFNS_cubeont: "http://ontology.cube.global/"
 
 export default RDFNS_cubeont

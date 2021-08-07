@@ -1,3 +1,3 @@
-type RDFNS_bis = http://bis.270a.info/dataset/
+declare const RDFNS_bis: "http://bis.270a.info/dataset/"
 
 export default RDFNS_bis

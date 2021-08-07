@@ -1,3 +1,3 @@
-type RDFNS_ops = https://w3id.org/ops#
+declare const RDFNS_ops: "https://w3id.org/ops#"
 
 export default RDFNS_ops

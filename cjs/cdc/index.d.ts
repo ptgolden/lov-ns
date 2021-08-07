@@ -1,3 +1,3 @@
-type RDFNS_cdc = https://w3id.org/cdc#
+declare const RDFNS_cdc: "https://w3id.org/cdc#"
 
 export default RDFNS_cdc

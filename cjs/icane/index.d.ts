@@ -1,3 +1,3 @@
-type RDFNS_icane = http://www.icane.es/opendata/vocab#
+declare const RDFNS_icane: "http://www.icane.es/opendata/vocab#"
 
 export default RDFNS_icane

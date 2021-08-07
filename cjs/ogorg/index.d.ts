@@ -1,3 +1,3 @@
-type RDFNS_ogorg = http://opengraph.org/schema/
+declare const RDFNS_ogorg: "http://opengraph.org/schema/"
 
 export default RDFNS_ogorg

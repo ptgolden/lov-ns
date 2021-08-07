@@ -1,3 +1,3 @@
-type RDFNS_posh = http://poshrdf.org/ns/posh/
+declare const RDFNS_posh: "http://poshrdf.org/ns/posh/"
 
 export default RDFNS_posh

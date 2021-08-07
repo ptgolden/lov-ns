@@ -1,3 +1,3 @@
-type RDFNS_rfd = http://com.intrinsec//ontology#
+declare const RDFNS_rfd: "http://com.intrinsec//ontology#"
 
 export default RDFNS_rfd

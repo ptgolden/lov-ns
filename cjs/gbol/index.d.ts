@@ -1,3 +1,3 @@
-type RDFNS_gbol = http://gbol.life/0.1#
+declare const RDFNS_gbol: "http://gbol.life/0.1#"
 
 export default RDFNS_gbol

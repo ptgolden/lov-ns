@@ -1,3 +1,3 @@
-type RDFNS_ceo = https://linkeddata.cultureelerfgoed.nl/vocab/def/ceo#
+declare const RDFNS_ceo: "https://linkeddata.cultureelerfgoed.nl/vocab/def/ceo#"
 
 export default RDFNS_ceo

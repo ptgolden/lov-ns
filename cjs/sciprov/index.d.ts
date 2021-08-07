@@ -1,3 +1,3 @@
-type RDFNS_sciprov = http://sweetontology.net/reprSciProvenance/
+declare const RDFNS_sciprov: "http://sweetontology.net/reprSciProvenance/"
 
 export default RDFNS_sciprov

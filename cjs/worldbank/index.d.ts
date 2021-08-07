@@ -1,3 +1,3 @@
-type RDFNS_worldbank = http://worldbank.270a.info/dataset/
+declare const RDFNS_worldbank: "http://worldbank.270a.info/dataset/"
 
 export default RDFNS_worldbank

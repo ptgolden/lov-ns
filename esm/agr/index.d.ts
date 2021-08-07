@@ -1,3 +1,3 @@
-type RDFNS_agr = http://promsns.org/def/agr#
+declare const RDFNS_agr: "http://promsns.org/def/agr#"
 
 export default RDFNS_agr

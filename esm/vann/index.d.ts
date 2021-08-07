@@ -1,3 +1,3 @@
-type RDFNS_vann = http://purl.org/vocab/vann/
+declare const RDFNS_vann: "http://purl.org/vocab/vann/"
 
 export default RDFNS_vann

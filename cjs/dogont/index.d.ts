@@ -1,3 +1,3 @@
-type RDFNS_dogont = http://elite.polito.it/ontologies/dogont.owl#
+declare const RDFNS_dogont: "http://elite.polito.it/ontologies/dogont.owl#"
 
 export default RDFNS_dogont

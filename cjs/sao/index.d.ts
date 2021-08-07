@@ -1,3 +1,3 @@
-type RDFNS_sao = http://salt.semanticauthoring.org/ontologies/sao#
+declare const RDFNS_sao: "http://salt.semanticauthoring.org/ontologies/sao#"
 
 export default RDFNS_sao

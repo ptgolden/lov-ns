@@ -1,3 +1,3 @@
-type RDFNS_room = http://vocab.deri.ie/rooms#
+declare const RDFNS_room: "http://vocab.deri.ie/rooms#"
 
 export default RDFNS_room

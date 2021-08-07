@@ -1,3 +1,3 @@
-type RDFNS_pav = http://purl.org/pav/
+declare const RDFNS_pav: "http://purl.org/pav/"
 
 export default RDFNS_pav

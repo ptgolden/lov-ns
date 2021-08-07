@@ -1,3 +1,3 @@
-type RDFNS_jpost = http://rdf.jpostdb.org/ontology/jpost.owl#
+declare const RDFNS_jpost: "http://rdf.jpostdb.org/ontology/jpost.owl#"
 
 export default RDFNS_jpost

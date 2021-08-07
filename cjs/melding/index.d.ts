@@ -1,3 +1,3 @@
-type RDFNS_melding = http://lblod.data.gift/vocabularies/automatische-melding/
+declare const RDFNS_melding: "http://lblod.data.gift/vocabularies/automatische-melding/"
 
 export default RDFNS_melding

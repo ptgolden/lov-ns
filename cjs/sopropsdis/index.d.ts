@@ -1,3 +1,3 @@
-type RDFNS_sopropsdis = http://sweetontology.net/propSpaceDistance/
+declare const RDFNS_sopropsdis: "http://sweetontology.net/propSpaceDistance/"
 
 export default RDFNS_sopropsdis

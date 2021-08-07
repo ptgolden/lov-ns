@@ -1,3 +1,3 @@
-type RDFNS_rail = http://ontologi.es/rail/vocab#
+declare const RDFNS_rail: "http://ontologi.es/rail/vocab#"
 
 export default RDFNS_rail

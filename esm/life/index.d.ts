@@ -1,3 +1,3 @@
-type RDFNS_life = http://life.deri.ie/schema/
+declare const RDFNS_life: "http://life.deri.ie/schema/"
 
 export default RDFNS_life

@@ -1,3 +1,3 @@
-type RDFNS_edg = http://edg.topbraid.solutions/model/
+declare const RDFNS_edg: "http://edg.topbraid.solutions/model/"
 
 export default RDFNS_edg

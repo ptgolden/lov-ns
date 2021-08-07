@@ -1,3 +1,3 @@
-type RDFNS_hello = https://www.youtube.com/user/SuperTellAFriend/featured/
+declare const RDFNS_hello: "https://www.youtube.com/user/SuperTellAFriend/featured/"
 
 export default RDFNS_hello

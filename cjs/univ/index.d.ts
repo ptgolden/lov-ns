@@ -1,3 +1,3 @@
-type RDFNS_univ = http://univ.io/
+declare const RDFNS_univ: "http://univ.io/"
 
 export default RDFNS_univ

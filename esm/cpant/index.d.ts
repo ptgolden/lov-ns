@@ -1,3 +1,3 @@
-type RDFNS_cpant = http://purl.org/NET/cpan-uri/terms#
+declare const RDFNS_cpant: "http://purl.org/NET/cpan-uri/terms#"
 
 export default RDFNS_cpant

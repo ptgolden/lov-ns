@@ -1,3 +1,3 @@
-type RDFNS_biogrid = http://thebiogrid.org/
+declare const RDFNS_biogrid: "http://thebiogrid.org/"
 
 export default RDFNS_biogrid

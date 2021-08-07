@@ -1,3 +1,3 @@
-type RDFNS_hops = https://rdf.ag/o/hops#
+declare const RDFNS_hops: "https://rdf.ag/o/hops#"
 
 export default RDFNS_hops

@@ -1,3 +1,3 @@
-type RDFNS_docker = http://www.w3.org/ns/bde/docker/
+declare const RDFNS_docker: "http://www.w3.org/ns/bde/docker/"
 
 export default RDFNS_docker

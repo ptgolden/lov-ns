@@ -1,3 +1,3 @@
-type RDFNS_eem = http://purl.org/eem#
+declare const RDFNS_eem: "http://purl.org/eem#"
 
 export default RDFNS_eem

@@ -1,3 +1,3 @@
-type RDFNS_maroc = http://fr.dbpedia.org/page/Maroc/
+declare const RDFNS_maroc: "http://fr.dbpedia.org/page/Maroc/"
 
 export default RDFNS_maroc

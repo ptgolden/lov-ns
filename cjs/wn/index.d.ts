@@ -1,3 +1,3 @@
-type RDFNS_wn = http://xmlns.com/wordnet/1.6/
+declare const RDFNS_wn: "http://xmlns.com/wordnet/1.6/"
 
 export default RDFNS_wn

@@ -1,3 +1,3 @@
-type RDFNS_telmap = http://purl.org/telmap/
+declare const RDFNS_telmap: "http://purl.org/telmap/"
 
 export default RDFNS_telmap

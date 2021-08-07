@@ -1,3 +1,3 @@
-type RDFNS_mydb = http://mydb.org/
+declare const RDFNS_mydb: "http://mydb.org/"
 
 export default RDFNS_mydb

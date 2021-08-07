@@ -1,3 +1,3 @@
-type RDFNS_openlinks = http://www.openlinksw.com/schemas/virtrdf#
+declare const RDFNS_openlinks: "http://www.openlinksw.com/schemas/virtrdf#"
 
 export default RDFNS_openlinks

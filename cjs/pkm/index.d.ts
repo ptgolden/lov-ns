@@ -1,3 +1,3 @@
-type RDFNS_pkm = http://www.ontotext.com/proton/protonkm#
+declare const RDFNS_pkm: "http://www.ontotext.com/proton/protonkm#"
 
 export default RDFNS_pkm

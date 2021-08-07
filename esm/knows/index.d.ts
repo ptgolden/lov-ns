@@ -1,3 +1,3 @@
-type RDFNS_knows = http://semantic.komc/usu/2020/knows#
+declare const RDFNS_knows: "http://semantic.komc/usu/2020/knows#"
 
 export default RDFNS_knows

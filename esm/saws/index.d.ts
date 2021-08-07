@@ -1,3 +1,3 @@
-type RDFNS_saws = http://purl.org/saws/ontology#
+declare const RDFNS_saws: "http://purl.org/saws/ontology#"
 
 export default RDFNS_saws

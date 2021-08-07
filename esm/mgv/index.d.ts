@@ -1,3 +1,3 @@
-type RDFNS_mgv = http://mangaview.fr/mgv#
+declare const RDFNS_mgv: "http://mangaview.fr/mgv#"
 
 export default RDFNS_mgv

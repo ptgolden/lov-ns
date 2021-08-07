@@ -1,3 +1,3 @@
-type RDFNS_si = http://sisteminformasi.com/
+declare const RDFNS_si: "http://sisteminformasi.com/"
 
 export default RDFNS_si

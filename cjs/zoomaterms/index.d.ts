@@ -1,3 +1,3 @@
-type RDFNS_zoomaterms = http://rdf.ebi.ac.uk/vocabulary/zooma/
+declare const RDFNS_zoomaterms: "http://rdf.ebi.ac.uk/vocabulary/zooma/"
 
 export default RDFNS_zoomaterms

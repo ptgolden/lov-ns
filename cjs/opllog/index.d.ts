@@ -1,3 +1,3 @@
-type RDFNS_opllog = http://www.openlinksw.com/ontology/logging#
+declare const RDFNS_opllog: "http://www.openlinksw.com/ontology/logging#"
 
 export default RDFNS_opllog

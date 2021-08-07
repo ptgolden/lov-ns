@@ -1,3 +1,3 @@
-type RDFNS_soproptf = http://sweetontology.net/propTimeFrequency/
+declare const RDFNS_soproptf: "http://sweetontology.net/propTimeFrequency/"
 
 export default RDFNS_soproptf

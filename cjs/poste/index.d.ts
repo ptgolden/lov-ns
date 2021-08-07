@@ -1,3 +1,3 @@
-type RDFNS_poste = http://data.lirmm.fr/ontologies/poste#
+declare const RDFNS_poste: "http://data.lirmm.fr/ontologies/poste#"
 
 export default RDFNS_poste

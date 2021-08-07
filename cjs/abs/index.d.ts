@@ -1,3 +1,3 @@
-type RDFNS_abs = http://abs.270a.info/dataset/
+declare const RDFNS_abs: "http://abs.270a.info/dataset/"
 
 export default RDFNS_abs

@@ -1,3 +1,3 @@
-type RDFNS_uniprot = http://purl.uniprot.org/core/
+declare const RDFNS_uniprot: "http://purl.uniprot.org/core/"
 
 export default RDFNS_uniprot

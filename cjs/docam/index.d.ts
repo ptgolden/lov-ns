@@ -1,3 +1,3 @@
-type RDFNS_docam = https://www.docam.ca/glossaurus/
+declare const RDFNS_docam: "https://www.docam.ca/glossaurus/"
 
 export default RDFNS_docam

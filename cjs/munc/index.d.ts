@@ -1,3 +1,3 @@
-type RDFNS_munc = http://ns.inria.fr/munc#
+declare const RDFNS_munc: "http://ns.inria.fr/munc#"
 
 export default RDFNS_munc

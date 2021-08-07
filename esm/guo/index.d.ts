@@ -1,3 +1,3 @@
-type RDFNS_guo = http://purl.org/hpi/guo#
+declare const RDFNS_guo: "http://purl.org/hpi/guo#"
 
 export default RDFNS_guo

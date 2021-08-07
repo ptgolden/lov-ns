@@ -1,3 +1,3 @@
-type RDFNS_maeco = http://edg.topbraid.solutions/maeco/
+declare const RDFNS_maeco: "http://edg.topbraid.solutions/maeco/"
 
 export default RDFNS_maeco

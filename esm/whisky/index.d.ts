@@ -1,3 +1,3 @@
-type RDFNS_whisky = http://vocab.org/whisky/terms/
+declare const RDFNS_whisky: "http://vocab.org/whisky/terms/"
 
 export default RDFNS_whisky

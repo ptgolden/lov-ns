@@ -1,3 +1,3 @@
-type RDFNS_imf = http://imf.270a.info/dataset/
+declare const RDFNS_imf: "http://imf.270a.info/dataset/"
 
 export default RDFNS_imf

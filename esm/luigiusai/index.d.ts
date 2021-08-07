@@ -1,3 +1,3 @@
-type RDFNS_luigiusai = https://www.luigiusai.it/wp#
+declare const RDFNS_luigiusai: "https://www.luigiusai.it/wp#"
 
 export default RDFNS_luigiusai

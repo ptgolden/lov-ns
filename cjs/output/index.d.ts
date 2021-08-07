@@ -1,3 +1,3 @@
-type RDFNS_output = http://volt-name.space/vocab/output#
+declare const RDFNS_output: "http://volt-name.space/vocab/output#"
 
 export default RDFNS_output

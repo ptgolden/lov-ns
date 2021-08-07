@@ -1,3 +1,3 @@
-type RDFNS_sophpc = http://sweetontology.net/phenPlanetClimate/
+declare const RDFNS_sophpc: "http://sweetontology.net/phenPlanetClimate/"
 
 export default RDFNS_sophpc

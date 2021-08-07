@@ -1,3 +1,3 @@
-type RDFNS_scra = http://purl.org/net/schemarama#
+declare const RDFNS_scra: "http://purl.org/net/schemarama#"
 
 export default RDFNS_scra

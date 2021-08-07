@@ -1,3 +1,3 @@
-type RDFNS_radar = http://www.radar-projekt.org/display/
+declare const RDFNS_radar: "http://www.radar-projekt.org/display/"
 
 export default RDFNS_radar

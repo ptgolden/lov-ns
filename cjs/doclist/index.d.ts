@@ -1,3 +1,3 @@
-type RDFNS_doclist = http://www.junkwork.net/xml/DocumentList#
+declare const RDFNS_doclist: "http://www.junkwork.net/xml/DocumentList#"
 
 export default RDFNS_doclist

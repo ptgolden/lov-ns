@@ -1,3 +1,3 @@
-type RDFNS_dssn = http://purl.org/net/dssn/
+declare const RDFNS_dssn: "http://purl.org/net/dssn/"
 
 export default RDFNS_dssn

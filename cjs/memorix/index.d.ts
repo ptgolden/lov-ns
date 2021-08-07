@@ -1,3 +1,3 @@
-type RDFNS_memorix = https://memorix.io/ontology#
+declare const RDFNS_memorix: "https://memorix.io/ontology#"
 
 export default RDFNS_memorix

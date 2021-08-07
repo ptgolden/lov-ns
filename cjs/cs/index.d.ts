@@ -1,3 +1,3 @@
-type RDFNS_cs = http://purl.org/vocab/changeset/schema#
+declare const RDFNS_cs: "http://purl.org/vocab/changeset/schema#"
 
 export default RDFNS_cs

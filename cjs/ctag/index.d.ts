@@ -1,3 +1,3 @@
-type RDFNS_ctag = http://commontag.org/ns#
+declare const RDFNS_ctag: "http://commontag.org/ns#"
 
 export default RDFNS_ctag

@@ -1,3 +1,3 @@
-type RDFNS_npdv = http://sws.ifi.uio.no/vocab/npd#
+declare const RDFNS_npdv: "http://sws.ifi.uio.no/vocab/npd#"
 
 export default RDFNS_npdv

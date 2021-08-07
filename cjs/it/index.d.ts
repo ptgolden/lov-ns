@@ -1,3 +1,3 @@
-type RDFNS_it = http://www.influencetracker.com/ontology#
+declare const RDFNS_it: "http://www.influencetracker.com/ontology#"
 
 export default RDFNS_it

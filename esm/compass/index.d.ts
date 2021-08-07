@@ -1,3 +1,3 @@
-type RDFNS_compass = http://purl.org/net/compass#
+declare const RDFNS_compass: "http://purl.org/net/compass#"
 
 export default RDFNS_compass

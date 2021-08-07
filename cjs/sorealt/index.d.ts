@@ -1,3 +1,3 @@
-type RDFNS_sorealt = http://sweetontology.net/realmLandTectonic/
+declare const RDFNS_sorealt: "http://sweetontology.net/realmLandTectonic/"
 
 export default RDFNS_sorealt

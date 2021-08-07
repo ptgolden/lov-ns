@@ -1,3 +1,3 @@
-type RDFNS_game = http://data.totl.net/game/
+declare const RDFNS_game: "http://data.totl.net/game/"
 
 export default RDFNS_game

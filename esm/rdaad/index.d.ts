@@ -1,3 +1,3 @@
-type RDFNS_rdaad = http://rdaregistry.info/Elements/a/datatype/
+declare const RDFNS_rdaad: "http://rdaregistry.info/Elements/a/datatype/"
 
 export default RDFNS_rdaad

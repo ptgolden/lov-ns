@@ -1,3 +1,3 @@
-type RDFNS_sostrb = http://sweetontology.net/stateRoleBiological/
+declare const RDFNS_sostrb: "http://sweetontology.net/stateRoleBiological/"
 
 export default RDFNS_sostrb

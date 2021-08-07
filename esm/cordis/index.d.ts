@@ -1,3 +1,3 @@
-type RDFNS_cordis = http://cordis.europa.eu/projects/
+declare const RDFNS_cordis: "http://cordis.europa.eu/projects/"
 
 export default RDFNS_cordis

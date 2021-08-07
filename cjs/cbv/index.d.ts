@@ -1,3 +1,3 @@
-type RDFNS_cbv = https://ns.gs1.org/cbv/
+declare const RDFNS_cbv: "https://ns.gs1.org/cbv/"
 
 export default RDFNS_cbv

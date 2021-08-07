@@ -1,3 +1,3 @@
-type RDFNS_citedcat = https://w3id.org/citedcat-ap/
+declare const RDFNS_citedcat: "https://w3id.org/citedcat-ap/"
 
 export default RDFNS_citedcat

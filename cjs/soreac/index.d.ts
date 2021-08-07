@@ -1,3 +1,3 @@
-type RDFNS_soreac = http://sweetontology.net/realmCryo/
+declare const RDFNS_soreac: "http://sweetontology.net/realmCryo/"
 
 export default RDFNS_soreac

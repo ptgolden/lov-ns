@@ -1,3 +1,3 @@
-type RDFNS_compub = https://sireneld.io/vocab/compub#
+declare const RDFNS_compub: "https://sireneld.io/vocab/compub#"
 
 export default RDFNS_compub

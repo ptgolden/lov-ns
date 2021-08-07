@@ -1,3 +1,3 @@
-type RDFNS_bbcprov = http://www.bbc.co.uk/ontologies/provenance/
+declare const RDFNS_bbcprov: "http://www.bbc.co.uk/ontologies/provenance/"
 
 export default RDFNS_bbcprov

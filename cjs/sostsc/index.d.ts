@@ -1,3 +1,3 @@
-type RDFNS_sostsc = http://sweetontology.net/stateSpaceConfiguration/
+declare const RDFNS_sostsc: "http://sweetontology.net/stateSpaceConfiguration/"
 
 export default RDFNS_sostsc

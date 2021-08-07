@@ -1,3 +1,3 @@
-type RDFNS_nndsr = http://semanticdiet.com/schema/usda/nndsr/
+declare const RDFNS_nndsr: "http://semanticdiet.com/schema/usda/nndsr/"
 
 export default RDFNS_nndsr

@@ -1,3 +1,3 @@
-type RDFNS_leak = http://data.ontotext.com/resource/leak/
+declare const RDFNS_leak: "http://data.ontotext.com/resource/leak/"
 
 export default RDFNS_leak

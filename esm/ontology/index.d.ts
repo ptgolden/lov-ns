@@ -1,3 +1,3 @@
-type RDFNS_ontology = http://dbpedia.org/ontology/
+declare const RDFNS_ontology: "http://dbpedia.org/ontology/"
 
 export default RDFNS_ontology

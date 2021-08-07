@@ -1,3 +1,3 @@
-type RDFNS_resex = http://resex.rkbexplorer.com/ontologies/resex#
+declare const RDFNS_resex: "http://resex.rkbexplorer.com/ontologies/resex#"
 
 export default RDFNS_resex

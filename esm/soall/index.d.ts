@@ -1,3 +1,3 @@
-type RDFNS_soall = http://sweetontology.net/sweetAll/
+declare const RDFNS_soall: "http://sweetontology.net/sweetAll/"
 
 export default RDFNS_soall

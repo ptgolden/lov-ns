@@ -1,3 +1,3 @@
-type RDFNS_sophcm = http://sweetontology.net/phenCycleMaterial/
+declare const RDFNS_sophcm: "http://sweetontology.net/phenCycleMaterial/"
 
 export default RDFNS_sophcm

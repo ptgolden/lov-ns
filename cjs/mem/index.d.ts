@@ -1,3 +1,3 @@
-type RDFNS_mem = http://mementoweb.org/ns#
+declare const RDFNS_mem: "http://mementoweb.org/ns#"
 
 export default RDFNS_mem

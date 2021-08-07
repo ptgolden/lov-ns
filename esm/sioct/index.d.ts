@@ -1,3 +1,3 @@
-type RDFNS_sioct = http://rdfs.org/sioc/types#
+declare const RDFNS_sioct: "http://rdfs.org/sioc/types#"
 
 export default RDFNS_sioct

@@ -1,3 +1,3 @@
-type RDFNS_faas = http://semantic-faas.com/ontology#
+declare const RDFNS_faas: "http://semantic-faas.com/ontology#"
 
 export default RDFNS_faas

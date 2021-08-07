@@ -1,3 +1,3 @@
-type RDFNS_meat = http://example.com/
+declare const RDFNS_meat: "http://example.com/"
 
 export default RDFNS_meat
