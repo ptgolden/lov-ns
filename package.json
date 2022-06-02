@@ -1,6 +1,6 @@
 {
   "name": "lov-ns",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Recommended RDF vocabularies for Linked Open Data.",
   "main": "index.js",
   "type": "module",
@@ -26,7 +26,7 @@
     "bump-version-after-update": "test \"Update data from LOV.\" = \"$(git log -1 --format='s')\" && (test \"$(git diff HEAD~1 HEAD --shortstat | grep deletion)\" && npm version major || npm version minor) || echo 'Last commit was not an update to the dataset.'"
   },
   "bin": {
-    "lov-ns": "./get_ns.js"
+    "lov-ns": "get_ns.js"
   },
   "devDependencies": {
     "mkdirp": "^0.5.1",
