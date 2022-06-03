@@ -1,6 +1,6 @@
 {
   "name": "lov-ns",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Recommended RDF vocabularies for Linked Open Data.",
   "main": "./index.cjs",
   "type": "module",
